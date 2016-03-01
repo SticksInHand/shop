@@ -10,11 +10,12 @@
 </head>
 <body>
 <h1>Rango says</h1>
+<a href="/rango/add_category/">Add a New Category</a><br />
 Hello,world!<strong>{{ boldmessage }}</strong><br/>
 {% if categories %}
 <ul>
     {% for category in categories %}
-    <li><a href="/rango/category/{{ category.name }}">{{ category.name }}</a></li>
+    <li><a href="/rango/category/{{ category.slug }}">{{ category.name }}</a></li>
     {% endfor %}
 </ul>
 {% else %}
