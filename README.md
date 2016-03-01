@@ -107,7 +107,7 @@ STATICFILES_DIRS = [
 ]
 ```
 然后模版中引入静态文件如下
-```python
+```html
 <!DOCTYPE html>
 {% load static %}
 <html>
