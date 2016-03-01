@@ -95,7 +95,7 @@ urlpatterns = patterns('',
     # 这里的P用来传参   这里的参数名应该跟view中接受参数的参数名相同
 ```
 
-6、静态文件服务配置
+### 6、静态文件服务配置
 首先在settings中设置
 ```python
 STATIC_PATH = os.path.join(BASE_DIR,'static')
@@ -131,7 +131,7 @@ from django.conf.urls.static import static # New Import
 if not settings.DEBUG:
         urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 ```
-7、媒体文件配置服务
+### 7、媒体文件配置服务
 首先修改urls
 ```python
 # At the top of your urls.py file, add the following line:
@@ -153,7 +153,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # Absolute path to the media direct
 
 > 备注：以上不论是静态文件还是静态媒体文件，static目录和media目录都放在根目录下跟templates和项目文件夹同一目录
 
-8、模型和数据库
+### 8、模型和数据库
 在setting中进行数据库的配置，如果是sqllite数据库只需要制定文件存储的目录：
 ```python
 DATABASES = {
@@ -222,7 +222,7 @@ python manage.py makemigrations
 ```bash
 python manage.py migrate
 ```
-9、简单设置管理界面
+### 9、简单设置管理界面
 打开对应app下的admin.py  可以对自定义的模型进行注册
 ```python
 from django.contrib import admin
