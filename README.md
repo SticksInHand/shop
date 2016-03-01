@@ -236,3 +236,7 @@ admin.site.register(Category)
 admin.site.register(Page, PageAdmin) #绑定定制的页面
 ```
 然后进入admin就可以看到相应的表了
+
+
+### 10、部署参考资料
+http://blog.csdn.net/a359680405/article/details/43113039
