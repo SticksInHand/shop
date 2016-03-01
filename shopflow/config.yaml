@@ -1,3 +1,6 @@
+name: shopflow
+version: 1
+
 libraries:
-- name: "django"
-  version: "1.9"
+- name:"django"
+  version:"1.7"
