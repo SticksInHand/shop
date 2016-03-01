@@ -1,5 +1,5 @@
 # django的练习与学习笔记
-Tags: django rango python
+
 ### 1、url 映射
 > /rango/   主页
 /rango/about/  关于
