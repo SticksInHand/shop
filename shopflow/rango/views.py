@@ -7,8 +7,8 @@ from rango.forms import CategoryForm
 def index(request):
     category_list = Category.objects.order_by('likes')[:5]
     context_dict = {'categories': category_list}
-    return HttpResponse('hello,sae!')
-    # return render(request, 'rango/index.html', context_dict)
+    # return HttpResponse('hello,sae!')
+    return render(request, 'rango/index.html', context_dict)
 
 
 def category(request, category_name):
