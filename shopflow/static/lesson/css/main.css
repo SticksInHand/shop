@@ -1,0 +1,43 @@
+.navbar .container{width: 1100px;}
+.navbar .nav{
+    float: right;}
+.content{background: #f5f5f5;}
+.hero-unit{min-height: 1000px;
+    max-width: 1088px;}
+.nav-header{margin-left: -50px;}
+.navbar-inner{height: 50px;}
+.page{border-right: 1px solid #eee;
+    border-left: 1px solid#eee;}
+/*navbar-inverse*/
+.gigoo-footer{
+    color: #FFF;
+    font-weight: 200;
+    height: 4em;
+    line-height: 4em;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+}
+.gigoo-footer .inner{background: #333;}
+.gigoo-footer .inner .container ul{margin: 0;
+    list-style-type: none;}
+.gigoo-footer .inner .container ul li{float: left;
+    line-height: 4em;
+    height: 4em;}
+.argue-p{font-size: 16px;}
+.argue .media-heading{color: #0088cc;}
+.argue-back{font-size: 14px;color: #0088cc}
+.leftandright{padding-top: 20px;padding-bottom: 20px;border-top: 1px solid #eee;border-bottom: 1px solid #eee;}
+.read-count{color: #999999;}
+.login{width: 300px;margin: 100px auto;text-align: center;}
+.login .input-prepend{margin-top: 10px;}
+.hero-unit .check2 a{font-size: 12px;}
+
+.login .form-horizontal .submit2{margin-top: 10px;width: 95%;}
+.check2{width:95%;margin: 0 auto;}
+.check2 input{margin-right: 5px;}
+.nocount{width: 95%;margin: 10px auto;text-align: left;clear: both;}
+.nocount p{font-size: 12px;color: #999;text-align: left;margin: 0px;line-height: 20px;}
+.hero-unit .line{height: 0px;border-bottom: 1px solid #cccccc;width: 95%;margin: 50px auto 0px auto;
+    clear: both;}
+.yuandian{font-size: 30px;margin-left: 10px;margin-right: 10px;}
+.check2 p{font-size: 12px;line-height: 20px;margin-top: 10px;text-align: left;}
